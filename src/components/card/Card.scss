@@ -63,12 +63,8 @@
         }
 
         &-preview {
-            position: relative;
-            height: 233px;
             img {
-                height: inherit;
                 width: 100%;
-                object-fit: 100%;
             }
         }
     }
