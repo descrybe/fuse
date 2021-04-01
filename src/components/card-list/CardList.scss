@@ -1,0 +1,15 @@
+$DESKTOP_BREAKPOINT: 1180px;
+$TABLET_BREAKPOINT: 850px;
+
+.card-list__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    row-gap: 38px;
+    column-gap: 21px;
+    @media screen and (max-width: $DESKTOP_BREAKPOINT) {
+        grid-template-columns: repeat(2, 380px);
+        @media screen and (max-width: $TABLET_BREAKPOINT) {
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+        }
+    }
+}

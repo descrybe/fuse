@@ -1,0 +1,19 @@
+
+@import './utils/variables.scss';
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__header {
+        @include text-params(bold, 36px, 49px);
+        color: #45852D;
+    }
+}

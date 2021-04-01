@@ -1,0 +1,20 @@
+$BORDER_COLOR: #D8D8D8;
+$INDEPENDENT_COLOR: #006F79;
+$SUPPORT_COLOR: #EC6608;
+$CARD_WIDTH: 380px;
+$TEXT_COLOR: #363636;
+
+
+$DESKTOP_BREAKPOINT: 1180px;
+$TABLET_BREAKPOINT: 850px;
+
+@mixin text-params($fWeight, $fSize, $lHeight) {   
+    font-style: normal; 
+    font-weight: $fWeight;
+    font-size: $fSize;
+    line-height: $lHeight;
+}
+
+@mixin shadow {
+    box-shadow: 4px 4px 8px -3px rgba(34, 60, 80, 0.2);    
+}
