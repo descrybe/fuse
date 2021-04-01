@@ -1,5 +1,4 @@
-$DESKTOP_BREAKPOINT: 1180px;
-$TABLET_BREAKPOINT: 850px;
+@import '../../utils/variables.scss';
 
 .card-list__wrapper {
     display: grid;

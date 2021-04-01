@@ -4,9 +4,9 @@ $SUPPORT_COLOR: #EC6608;
 $CARD_WIDTH: 380px;
 $TEXT_COLOR: #363636;
 
-
 $DESKTOP_BREAKPOINT: 1180px;
 $TABLET_BREAKPOINT: 850px;
+$MOBILE_BREAKPOINT: 450px;
 
 @mixin text-params($fWeight, $fSize, $lHeight) {   
     font-style: normal; 

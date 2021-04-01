@@ -32,8 +32,7 @@
             margin: 7px 0 0 0;
             @include text-params(normal, 14px, 19px);
         }
-    }
-    
+    }    
 
     &-preview {
         position: relative;
@@ -56,5 +55,21 @@
     }
 
     &-label_independent { background-color: $INDEPENDENT_COLOR }    
-    &-label_support { background-color: $SUPPORT_COLOR }
+    &-label_support { background-color: $SUPPORT_COLOR }    
+
+    @media screen and (max-width: 390px) {
+        &-wrapper {
+            width: 90%;
+        }
+
+        &-preview {
+            position: relative;
+            height: 233px;
+            img {
+                height: inherit;
+                width: 100%;
+                object-fit: 100%;
+            }
+        }
+    }
 }

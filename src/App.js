@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div className='app__container'>
       <h1 className='app__header'>Our Latest Developments</h1>
-      <div>
+      <div className='app__content-wrapper'>
         <Switch>
           <Route exact path='/'>
             { ComponentByLoadingValue }

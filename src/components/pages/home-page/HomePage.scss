@@ -51,3 +51,15 @@
         border-radius: 25px;
     }
 }
+
+@media screen and (max-width: $MOBILE_BREAKPOINT) {
+    .main-page__wrapper {
+        width: 100%;
+    }
+
+    .filter-wrapper {
+        input {
+            width: 70%;
+        }
+    }
+}

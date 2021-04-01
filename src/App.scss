@@ -14,6 +14,13 @@ body {
 
     &__header {
         @include text-params(bold, 36px, 49px);
+        text-align: center;
         color: #45852D;
+    }
+
+    @media screen and (max-width: $MOBILE_BREAKPOINT) {
+        &__content-wrapper {
+            width: 100%;
+        }
     }
 }
